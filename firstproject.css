@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;0,700;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;800&display=swap');
+/*First Font is Montserrat(100,200,500,700,600)*/
+/*Second Font is Nunito(200,300,400,600)*/
+
+body{
+    background-color:#212121 ;
+}
+
+.topbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 95vw;
+}
+
+.logo{
+    margin-top:5vh ;
+    padding-left:10px;
+}
+
+.logo img{
+    height: 7.5em;
+}
+
+.options{
+    color: #fff;
+    font-family:'Montserrat';
+    font-weight:200;
+    font-size: 1.5em;
+    padding-right: 10px;
+}
+.options ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    margin-top: 1.5em;
+    text-align: center;
+    letter-spacing: 6px;
+    color: burlywood;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 4em;
+    width: 50%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+}
+
+.main ul{
+    margin-top: 1.5em;
+    list-style-type: none;
+    color: blanchedalmond;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 2em;
+    line-height: 2.5em;
+    width: 50%;
+    animation-duration: 3s;
+    animation-name: slidein2;
+    animation-fill-mode: forwards;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    font-weight: 400;
+}
+.footer{
+    background-color:#181616;
+    margin-top: 10em;
+    border-radius: 1em;
+}
+
+.name{
+    color: #FFCCBC;
+    line-height: 3em;
+    margin-left: 1em;
+    font-size: 1.25em;
+    font-family: 'Nunito';
+    font-weight: 800;
+}
+.name2{
+    color:#FFE0B2;
+    margin-left: 1em;
+    font-size: 1.25em;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+.rights{
+    color: #DCEDC8;
+    margin-left: 45em;
+    line-height: 3em;
+    font-family: 'Nunito';
+    font-size: 1em;
+    font-weight: 400;
+}
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 6.5em;
+    }
+}
+@keyframes slidein2 {
+    from{
+        margin-right:100%;
+    }
+    to{
+        margin-left:1em;
+    }
+}

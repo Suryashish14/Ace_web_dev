@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;0,700;1,200;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 /*First Font is Montserrat(100,200,500,700,600)*/
 /*Second Font is Nunito(200,300,400,600)*/
-
+/*Third Font is Rubik(400 Only)*/
 body{
     background-color:#212121 ;
 }
@@ -39,6 +40,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 
 .header{
     margin-top: 1.5em;
@@ -119,3 +121,79 @@ a:hover{
         margin-left:1em;
     }
 }
+@keyframes slidein3 {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 1em;
+    }
+}
+@keyframes slidein4 {
+    from{
+        margin-left: 0%;
+    }
+    to{
+        margin-left: 10em;
+    }
+}
+.by{
+    margin-left:1em;
+    margin-top:1.5em;
+    letter-spacing: 6px;
+    color: burlywood;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 4em;
+    width: 50%;
+    animation-duration: 3s;
+    animation-name: slidein3;
+    animation-fill-mode: forwards;
+}
+.surya{
+    margin-left: 10em;
+    margin-top: 0.5em;
+    font-family: 'Rubik';
+    color: rgb(248, 243, 224);
+    font-weight: 400;
+    font-size: 3em;
+    letter-spacing: 10px;
+    width: 50%;
+    animation-duration: 3s;
+    animation-name: slidein4;
+    animation-fill-mode: forwards;
+}
+.insta{
+    margin-left: 10em;
+    position: relative;
+    top: 8em;
+}
+.insta img{
+    height:100px;
+}
+.discord{
+    margin-left:45em ;
+    position: relative;
+    bottom: 4.5em;
+}
+.discord img{
+    height:100px;
+}
+.github{
+    position: relative;
+    margin-left: 80em;
+    top: 10px;
+    right: 6px;
+    bottom: 5px;
+}
+.github img{
+    height: 100px;
+}
+.gmail{
+    color: cornsilk;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 27px;
+    letter-spacing: 4px;
+}
+
